@@ -6,8 +6,6 @@ import { projects } from '../data/projects';
 import '../styles/list.css';
 import '../styles/index.css';
 
-export const byFile = fileName => edge => edge.node.file === fileName;
-
 const IndexPage = () => (
 	<Layout>
 		<Header />
