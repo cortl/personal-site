@@ -5,6 +5,9 @@ export default ({ pageContext }) => {
 	console.log(pageContext);
 	return (
 		<Layout>
+			<h4>
+				<a href={'/recipes'}>{`< Go Back`}</a>
+			</h4>
 			<h1>{pageContext.title}</h1>
 			<h4>
 				{`Adapted from `}
